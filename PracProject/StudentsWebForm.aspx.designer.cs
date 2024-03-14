@@ -11,61 +11,61 @@ namespace PracProject
 {
 
 
-    public partial class Students
+    public partial class StudentsWebForm
     {
 
         /// <summary>
-        /// lblSearch control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSearch;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtSearch control.
+        /// ScriptManager1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSearch;
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
-        /// ddlResults control.
+        /// ComboBoxForNames control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlResults;
+        protected global::AjaxControlToolkit.ComboBox ComboBoxForNames;
 
         /// <summary>
-        /// txtName control.
+        /// StudentSrcAll control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.SqlDataSource StudentSrcAll;
 
         /// <summary>
-        /// txtId control.
+        /// TextComboBoxNames control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtId;
+        protected global::AjaxControlToolkit.ComboBox TextComboBoxNames;
 
         /// <summary>
-        /// txtCGPA control.
+        /// SqlStudentSrc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCGPA;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlStudentSrc;
     }
 }
